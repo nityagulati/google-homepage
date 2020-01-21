@@ -21,6 +21,7 @@ body, html {
 
 body {
   color: #5F6368;
+  font-family: "arial", sans-serif;
   font-size: 14px;
 }
 
@@ -58,6 +59,7 @@ body {
 
 .profile-icon {
   color: rgba(0, 0, 0, 0.47);
+  vertical-align: middle;
 }
 
 .profile-icon:hover {
@@ -80,15 +82,20 @@ body {
   background-color: #f2f2f2;
   background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
   color: #5F6368;
-  border: 1px solid #f2f2f2;
+  border: none;
   border-radius: 4px;
   font-size: 1.02rem;
   padding: 1% 2%;
   margin: 2%;
 }
 
+
 .btn:focus {
-  outline: none;
+  outline: 1px solid rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+.btn:hover {
+  outline: 1px solid rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
 }
 
 .icon {
