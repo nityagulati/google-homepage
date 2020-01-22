@@ -30,9 +30,15 @@ body {
   height: 100%;
   display: -webkit-box;
   display: flex;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
   -webkit-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
   -webkit-box-direction: normal;
   flex-direction: column;
+  -moz-box-pack: justify;
+  -ms-box-pack: justify;
   -webkit-box-pack: justify;
   justify-content: space-between;
 }
@@ -43,27 +49,27 @@ body {
   display: inline-block;
 }
 
-.apps-icon:hover {
+.apps-icon:hover, .profile-icon:hover {
   opacity: 0.8;
 }
 
 .header-nav {
+  -moz-box-align: baseline;
+  -ms-box-align: baseline;
+  -webkit-box-align: baseline;
+  align-items: baseline;
   display: -webkit-box;
   display: flex;
+  -moz-box-pack: justify;
+  -ms-box-pack: justify;
   -webkit-box-pack: justify;
   justify-content: space-between;
   padding: 1%;
-  -webkit-box-align: baseline;
-  align-items: baseline;
 }
 
 .profile-icon {
   opacity: 0.5;
   vertical-align: middle;
-}
-
-.profile-icon:hover {
-  opacity: 0.8;
 }
 
 /* main */
@@ -111,6 +117,8 @@ body {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
   width: 45%;
@@ -125,6 +133,8 @@ body {
   border: 1px solid #ebebeb;
   border-radius: 20px;
   box-shadow: 0 4px 8px 2px rgba(154, 160, 166, 0.5);
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
   -webkit-box-flex: 1;
   flex: 1 1 75%;
   font-size: 1.14rem;
@@ -143,6 +153,8 @@ body {
   border-top: 1px solid rgb(223, 223, 223);
   display: -webkit-box;
   display: flex;
+  -moz-box-pack: justify;
+  -ms-box-pack: justify;
   -webkit-box-pack: justify;
   justify-content: space-between;
   padding: 1%;
