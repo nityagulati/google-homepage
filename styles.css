@@ -1,7 +1,7 @@
 /* desktop design */
 /* elements */
 a {
-  color: #5F6368;
+  color: #585858;
   margin-right: 1rem;
   text-decoration: none;
 }
@@ -20,7 +20,7 @@ body, html {
 }
 
 body {
-  color: #5F6368;
+  color: #585858;
   font-family: "arial", sans-serif;
   font-size: 14px;
 }
@@ -39,12 +39,12 @@ body {
 
 /* header */
 .apps-icon {
-  color: rgba(0, 0, 0, 0.47);
+  opacity: 0.5;
   display: inline-block;
 }
 
 .apps-icon:hover {
-  color: rgba(0, 0, 0, 0.87);
+  opacity: 0.8;
 }
 
 .header-nav {
@@ -58,12 +58,12 @@ body {
 }
 
 .profile-icon {
-  color: rgba(0, 0, 0, 0.47);
+  opacity: 0.5;
   vertical-align: middle;
 }
 
 .profile-icon:hover {
-  color: rgba(0, 0, 0, 0.87);
+  opacity: 0.8;
 }
 
 /* main */
@@ -80,8 +80,7 @@ body {
 /* search form */
 .btn {
   background-color: #f2f2f2;
-  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
-  color: #5F6368;
+  color: gray;
   border: none;
   border-radius: 4px;
   font-size: 1.02rem;
@@ -91,11 +90,15 @@ body {
 
 
 .btn:focus {
-  outline: 1px solid rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  outline: none;
 }
 
 .btn:hover {
-  outline: 1px solid rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  background-color: #f3f3f3;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 1px 0 #A9ADAA;
+  color: #282828;
+  cursor: pointer;
 }
 
 .icon {
@@ -110,16 +113,16 @@ body {
   flex-wrap: wrap;
   -webkit-box-pack: center;
   justify-content: center;
-  width: 50%;
+  width: 45%;
   margin: auto;
 }
 
 .search-form__field {
-  background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
-  background-position: 98%;
+  background-image: url('images/search-icon.svg'), url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+  background-position: 2%, 98%;
   background-repeat: no-repeat;
-  background-size: 30px;
-  border: 1px solid rgba(242, 242, 242, 1);
+  background-size: 25px;
+  border: 1px solid #ebebeb;
   border-radius: 20px;
   box-shadow: 0 4px 8px 2px rgba(154, 160, 166, 0.5);
   -webkit-box-flex: 1;
@@ -133,14 +136,11 @@ body {
   outline: none;
 }
 
-.search-form__icon {
-  color: rgba(154, 160, 166, 0.5);
-}
 
 /* footer */
 .footer-nav {
   background-color: #f2f2f2;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgb(223, 223, 223);
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
