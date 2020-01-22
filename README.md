@@ -13,10 +13,10 @@ From Odin Project's [Curriculum](https://www.theodinproject.com/courses/web-deve
 
 ## Key Lessons
 
-1. Layouts and position elements using Flexbox
-2. Manipulate SVG images
+1. Create layouts and position elements using Flexbox
+2. Manipulate SVG images and multiple background images
 3. Style Form elements
-4. Name elements - BEM
+4. Naming elements - BEM
 
 ## Technologies
 
