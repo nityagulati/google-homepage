@@ -1,6 +1,7 @@
 # The Odin Project - Recreating Google Homepage
 
-Thanks for checking out this front-end coding project. This page started life as an HTML/CSS Odin Project. 🎉 Coded by [Nitya Gulati](https://nityagulati.github.io).
+Thanks for checking out this front-end coding challenge. This page started life as an HTML/CSS Odin Project. 
+🎉 Coded by [Nitya Gulati](https://nityagulati.github.io).
 
 
 ## Objective
@@ -19,4 +20,4 @@ From Odin Project's [Curriculum](https://www.theodinproject.com/courses/web-deve
 
 ## Technologies
 
-HTML/CSS, BEM
+HTML5/CSS, BEM
